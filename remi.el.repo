@@ -1,0 +1,23 @@
+[remi]
+name            = Remi's RPM repository
+#baseurl        = https://rpms.remirepo.net/enterprise/$releasever/remi/$basearch/
+mirrorlist      = https://cdn.remirepo.net/enterprise/$releasever/remi/$basearch/mirror
+gpgkey          = https://rpms.remirepo.net/RPM-GPG-KEY-remi2018
+gpgcheck        = 1
+enabled         = 0
+
+[remi-modular]
+name            = Remi's Modular repository
+#baseurl        = https://rpms.remirepo.net/enterprise/$releasever/modular/$basearch/
+mirrorlist      = https://cdn.remirepo.net/enterprise/$releasever/modular/$basearch/mirror
+gpgkey          = https://rpms.remirepo.net/RPM-GPG-KEY-remi2018
+gpgcheck        = 1
+enabled         = 1
+
+[remi-safe]
+name            = Safe Remi's RPM repository
+#baseurl        = https://rpms.remirepo.net/enterprise/$releasever/safe/$basearch/
+mirrorlist      = https://cdn.remirepo.net/enterprise/$releasever/safe/$basearch/mirror
+gpgkey          = https://rpms.remirepo.net/RPM-GPG-KEY-remi2018
+gpgcheck        = 1
+enabled         = 1

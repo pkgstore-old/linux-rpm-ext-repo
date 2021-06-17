@@ -1,0 +1,8 @@
+[elasticsearch]
+name            = Elasticsearch repository
+baseurl         = https://artifacts.elastic.co/packages/5.x/yum
+gpgkey          = https://artifacts.elastic.co/GPG-KEY-elasticsearch
+type            = rpm-md
+autorefresh     = 1
+gpgcheck        = 1
+enabled         = 1

@@ -1,0 +1,17 @@
+[remi]
+name            = Remi's RPM repository
+#baseurl        = https://rpms.remirepo.net/fedora/$releasever/remi/$basearch/
+mirrorlist      = https://cdn.remirepo.net/fedora/$releasever/remi/$basearch/mirror
+gpgkey          = https://rpms.remirepo.net/RPM-GPG-KEY-remi2021
+gpgcheck        = 1
+fastestmirror   = 1
+enabled         = 0
+
+[remi-modular]
+name            = Remi's Modular repository
+#baseurl        = https://rpms.remirepo.net/fedora/$releasever/modular/$basearch/
+mirrorlist      = https://cdn.remirepo.net/fedora/$releasever/modular/$basearch/mirror
+gpgkey          = https://rpms.remirepo.net/RPM-GPG-KEY-remi2021
+gpgcheck        = 1
+fastestmirror   = 1
+enabled         = 1

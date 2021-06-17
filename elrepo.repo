@@ -1,0 +1,35 @@
+[elrepo]
+name            = ELRepo.org Community Enterprise Linux Repository
+baseurl         = https://elrepo.org/linux/elrepo/el$releasever/$basearch/
+                  https://mirrors.coreix.net/elrepo/elrepo/el$releasever/$basearch/
+                  https://jur-linux.org/download/elrepo/elrepo/el$releasever/$basearch/
+                  https://repos.lax-noc.com/elrepo/elrepo/el$releasever/$basearch/
+mirrorlist      = https://mirrors.elrepo.org/mirrors-elrepo.el$releasever
+gpgkey          = https://elrepo.org/RPM-GPG-KEY-elrepo.org
+gpgcheck        = 1
+protect         = 0
+enabled         = 0
+
+[elrepo-kernel]
+name            = ELRepo.org Community Enterprise Linux Kernel Repository
+baseurl         = https://elrepo.org/linux/kernel/el$releasever/$basearch/
+                  https://mirrors.coreix.net/elrepo/kernel/el$releasever/$basearch/
+                  https://jur-linux.org/download/elrepo/kernel/el$releasever/$basearch/
+                  https://repos.lax-noc.com/elrepo/kernel/el$releasever/$basearch/
+mirrorlist      = https://mirrors.elrepo.org/mirrors-elrepo-kernel.el$releasever
+gpgkey          = https://elrepo.org/RPM-GPG-KEY-elrepo.org
+gpgcheck        = 1
+protect         = 0
+enabled         = 0
+
+[elrepo-extras]
+name            = ELRepo.org Community Enterprise Linux Extras Repository
+baseurl         = https://elrepo.org/linux/extras/el$releasever/$basearch/
+                  https://mirrors.coreix.net/elrepo/extras/el$releasever/$basearch/
+                  https://jur-linux.org/download/elrepo/extras/el$releasever/$basearch/
+                  https://repos.lax-noc.com/elrepo/extras/el$releasever/$basearch/
+mirrorlist      = https://mirrors.elrepo.org/mirrors-elrepo-extras.el$releasever
+gpgkey          = https://elrepo.org/RPM-GPG-KEY-elrepo.org
+gpgcheck        = 1
+protect         = 0
+enabled         = 0

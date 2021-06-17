@@ -1,0 +1,27 @@
+[mysql]
+name            = MySQL repository
+baseurl         = https://repo.mysql.com/yum/mysql-8.0-community/el/$releasever/$basearch/
+gpgkey          = https://repo.mysql.com/RPM-GPG-KEY-mysql
+gpgcheck        = 1
+enabled         = 1
+
+[mysql-connectors]
+name            = MySQL Connectors repository
+baseurl         = https://repo.mysql.com/yum/mysql-connectors-community/el/$releasever/$basearch/
+gpgkey          = https://repo.mysql.com/RPM-GPG-KEY-mysql
+gpgcheck        = 1
+enabled         = 0
+
+[mysql-tools]
+name            = MySQL Tools repository
+baseurl         = https://repo.mysql.com/yum/mysql-tools-community/el/$releasever/$basearch/
+gpgkey          = https://repo.mysql.com/RPM-GPG-KEY-mysql
+gpgcheck        = 1
+enabled         = 0
+
+[mysql-tools-preview]
+name            = MySQL Tools Preview repository
+baseurl         = https://repo.mysql.com/yum/mysql-tools-preview/el/$releasever/$basearch/
+gpgkey          = https://repo.mysql.com/RPM-GPG-KEY-mysql
+gpgcheck        = 1
+enabled         = 0

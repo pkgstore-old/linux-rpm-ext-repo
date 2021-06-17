@@ -1,0 +1,27 @@
+[percona-server-mysql]
+name            = Percona Server for MySQL repository
+baseurl         = https://repo.percona.com/ps-80/yum/release/$releasever/RPMS/$basearch
+gpgkey          = https://repo.percona.com/yum/PERCONA-PACKAGING-KEY
+gpgcheck        = 1
+enabled         = 1
+
+[percona-server-mysql-noarch]
+name            = Percona Server for MySQL repository - noarch
+baseurl         = https://repo.percona.com/ps-80/yum/release/$releasever/RPMS/noarch
+gpgkey          = https://repo.percona.com/yum/PERCONA-PACKAGING-KEY
+gpgcheck        = 1
+enabled         = 1
+
+[percona-tools]
+name            = Percona Tools repository
+baseurl         = https://repo.percona.com/tools/yum/release/$releasever/RPMS/$basearch
+gpgkey          = https://repo.percona.com/yum/PERCONA-PACKAGING-KEY
+gpgcheck        = 1
+enabled         = 1
+
+[percona-tools-noarch]
+name            = Percona Tools repository - noarch
+baseurl         = https://repo.percona.com/tools/yum/release/$releasever/RPMS/noarch
+gpgkey          = https://repo.percona.com/yum/PERCONA-PACKAGING-KEY
+gpgcheck        = 1
+enabled         = 1

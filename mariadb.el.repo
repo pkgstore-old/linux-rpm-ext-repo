@@ -1,0 +1,6 @@
+[mariadb]
+name            = MariaDB repository
+baseurl         = https://yum.mariadb.org/10.5/centos$releasever-amd64
+gpgkey          = https://yum.mariadb.org/RPM-GPG-KEY-MariaDB
+gpgcheck        = 1
+enabled         = 0
