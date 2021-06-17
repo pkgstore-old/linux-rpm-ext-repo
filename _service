@@ -1,7 +1,7 @@
 <services>
   <service name="obs_scm">
     <param name="scm">git</param>
-    <param name="url">https://gitlab.com/pkgstore/linux-rpm-ext-repo.git</param>
+    <param name="url">https://github.com/pkgstore/linux-rpm-ext-repo.git</param>
     <param name="version">_none_</param>
     <param name="filename">ext-repo</param>
     <param name="extract">*</param>

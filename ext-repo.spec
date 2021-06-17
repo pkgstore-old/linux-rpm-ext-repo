@@ -2,10 +2,10 @@
 %global release_prefix          100
 
 Name:                           ext-repo
-Version:                        1.0.5
+Version:                        1.0.6
 Release:                        %{release_prefix}%{?dist}
 Summary:                        META-package for install and configure repositories
-License:                        GPLv3+
+License:                        MIT
 
 Source10:                       elasticsearch.repo
 Source11:                       mariadb.el.repo
@@ -69,6 +69,10 @@ META-package for install and configure repositories.
 
 
 %changelog
+* Thu Jun 17 2021 Package Store <kitsune.solar@gmail.com> - 1.0.6-100
+- UPD: Move to GitHub.
+- UPD: License.
+
 * Thu Jun 17 2021 Package Store <kitsune.solar@gmail.com> - 1.0.5-100
 - UPD: Remi repository.
 
