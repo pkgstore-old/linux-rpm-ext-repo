@@ -1,5 +1,5 @@
 %global d_repos                 %{_sysconfdir}/yum.repos.d
-%global release_prefix          100
+%global release_prefix          101
 
 Name:                           ext-repo
 Version:                        1.0.6
@@ -71,6 +71,9 @@ META-package for install and configure repositories.
 
 
 %changelog
+* Fri Jun 18 2021 Package Store <kitsune.solar@gmail.com> - 1.0.6-101
+- UPD: New build for latest changes.
+
 * Thu Jun 17 2021 Package Store <kitsune.solar@gmail.com> - 1.0.6-100
 - UPD: Move to GitHub.
 - UPD: License.
